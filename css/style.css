@@ -3,9 +3,9 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-.img-box1{
+
   
-}
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -52,7 +52,7 @@ body {
   left: 50%;
   width: 75px;
   height: 5px;
-  background-color: #30ae69;
+  background-color: #5e1371;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -178,7 +178,7 @@ a:focus {
   bottom: 0;
   width: 45px;
   height: 45px;
-  background-color: #30ae69;
+  background-color: #5e1371;
   z-index: 2;
 }
 
@@ -334,18 +334,20 @@ a:focus {
   left: 50%;
   width: 75px;
   height: 2px;
-  background-color: #30ae69;
+  background-color: #5e1371;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .how_section .how_container .box .detail-box p {
-  color: #b8b8b8;
+  color: #8a8787;
 }
 
 .how_section .how_container .box:hover .img-box {
-  background-color: #30ae69;
+  background-color: #b8b8b8;
+  
 }
+
 
 .how_section .how_container .box:hover .img-box svg {
   fill: #ffffff;
@@ -461,8 +463,8 @@ a:focus {
 
 section.app_section {
   color: #ffffff;
-  background: -webkit-gradient(linear, left top, right top, from(#30ae69), to(#072e85));
-  background: linear-gradient(to right, #30ae69, #072e85);
+  background: -webkit-gradient(linear, left top, right top, from(#5e1371), to(#072e85));
+  background: linear-gradient(to right, #5e1371, #072e85);
 }
 
 section.app_section .row {
@@ -719,7 +721,7 @@ section.app_section .img-box img {
   bottom: 0;
   width: 60px;
   height: 55px;
-  background-color: #30ae69;
+  background-color: #5e1371;
   z-index: 2;
 }
 
@@ -794,8 +796,8 @@ section.app_section .img-box img {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #30ae69;
-  border: 1px solid #30ae69;
+  background-color: #5e1371;
+  border: 1px solid #5e1371;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: -webkit-transform 0.3s;
@@ -837,5 +839,7 @@ section.app_section .img-box img {
   color: #636363;
 }
 
-/* end footer section*/
-/*# sourceMappingURL=style.css.map */
+.btn-box :hover{
+  background-color:#5e1371;
+  color: white;
+}

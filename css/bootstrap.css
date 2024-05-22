@@ -260,18 +260,21 @@ select {
   word-wrap: normal;
 }
 
-button,
+/* button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-}
+ 
+} */
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
   cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 button::-moz-focus-inner,
