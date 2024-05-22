@@ -1,0 +1,16 @@
+.html1{
+    width: 200px;
+    height: 250px;
+   background-color: rgb(190, 201, 197);
+}
+.hero_area1{
+    background-size: cover;
+    height: auto;
+    height: auto;
+}
+.uk-nav-sub ul{
+   padding: 5px 0 5px 15px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
