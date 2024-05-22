@@ -31,14 +31,14 @@
 </head>
 
 <body>
-  <div class="hero_area">
+  <div class="hero_area1">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Cryptop
+              RD Programming
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -49,38 +49,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="about.html"> About </a>
+                  <a class="nav-link" href="index.html">Գլխավոր <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="how.html"> How </a>
+                  <a class="nav-link" href="lezuner.html"> Ծրագրավորման լեզուներ </a>
+                </li>
+                <li class="nav-item "> 
+                  <a class="nav-link" href="grqer.html"> Ծրագրավորման Գրքեր</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span>Wallet</span> <img src="images/wallet.png" alt="" />
+                  <a class="nav-link" href="xndirner.html">
+                    <span>Ծրագրավորման Խնդիրներ</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Sign Up</a>
+                  <a class="nav-link" href="about.html"> Մեր մասին</a>
                 </li>
               </ul>
-              <div class="user_option">
-                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
-              </div>
             </div>
           </div>
         </nav>
       </div>
     </header>
-    <!-- end header section -->
   </div>
 
   <!-- about section -->
@@ -88,33 +79,51 @@
   <section class="about_section layout_padding">
     <div class="container">
       <div class="heading_container">
-        <h2>
-          About Cryptop
-        </h2>
+        <h1>
+          Մեր Մասին
+        </h1>
       </div>
       <div class="box">
         <div class="img-box">
           <img src="images/about-img.png" alt="">
         </div>
-        <div class="detail-box">
+        <div class="detail-box" style="text-align: center;">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim
+            Բարի գալուստ RD Programming - Ձեր պորտալը դեպի ծրագրավորման աշխարհ:
+ Ցանկանու՞մ եք սովորել ծրագրավորել:  Մենք կօգնենք Ձեզ տիրապետել բոլոր անհրաժեշտ հմտություններին և 
+ գիտելիքներին ՏՏ ոլորտում հաջող կարիերայի համար:  Մեր կայքում դուք կգտնեք.
+       <div id="moreText" style="display: none;">
           </p>
+          <h4> Ինտերակտիվ դասընթացներ</h4>
+           <p style="text-align: center;"> Սովորեք ծրագրավորման հայտնի լեզուներ, ինչպիսիք են Python, 
+            <br  style="text-align: center;"> JavaScript, Java, C++ և շատ ավելին: 
+            Մեր դասընթացները կառուցված են <br>այնպես,որ հեշտացնեն ձեզ սկսել և շարունակել 
+            ուսումը, անկախ ձեր հմտության մակարդակից:</p>
+            <h4> Գործնական վարժություններ</h4>
+            <p style="text-align: center;">  Տեսությունը լավն է, բայց պրակտիկան ավելի լավ է:  
+             <br  style="text-align: center;">Մեր ինտերակտիվ վարժությունները և առաջադրանքները կօգնեն 
+             <br>ձեզ համախմբել ձեր գիտելիքները և կիրառել դրանք գործնականում:</p>
+             <h4  > Կապ մեզ հետ </h4>
+             <p style="text-align: center;">  Սկսեք ձեր ուղին դեպի ծրագրավորում այսօր: 
+              <br>Անկախ նրանից, թե դուք ցանկանում եք ստեղծել ձեր առաջին կայքը, 
+              <br>մշակել բջջային հավելված կամ խորանալ մեքենայական ուսուցման աշխարհում, <br>մենք ունենք այն ամենը, ինչ ձեզ հարկավոր է: 
+              <br>Մեր կոնտակտային տվյալները
+              <br>Էլ.փոստ՝ rdprogramming24@gmail.com
+              <br>Հեռ.՝ +37498243882
+                         +37455046414
+              <br  style="text-align: center;"></p>
+              </div>
           <div class="btn-box">
-            <a href="">
-              Read More
-            </a>
+            <button onclick="toggleMoreText()" id="myBtn" text-align="center">Իմանալ ավելին</button>
+          </div>
+          <div>
+            <p> Բարի գալուստ ծրագրավորման համայնք:  Ձեր հաջողությունը մեր գլխավոր նպատակն է։</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- end about section -->
-
-  <!-- info section -->
   <section class="info_section layout_padding">
     <div class="container">
       <div class="row">
@@ -123,7 +132,7 @@
             <div class="info_logo">
               <a href="index.html">
                 <span>
-                  Cryptop
+                  RD Programming
                 </span>
               </a>
             </div>
@@ -135,7 +144,7 @@
                 <img src="images/location.png" width="18px" alt="" />
               </div>
               <p>
-                Page when looking at its layou
+                GAVAR
               </p>
             </div>
             <div>
@@ -143,7 +152,8 @@
                 <img src="images/phone.png" width="18px" alt="" />
               </div>
               <p>
-                +01 1234567890
+                +37498243882<br>
+                +37455046414
               </p>
             </div>
             <div>
@@ -151,7 +161,7 @@
                 <img src="images/envelope.png" width="18px" alt="" />
               </div>
               <p>
-                demo@gmail.com
+                rdprogramming24@gmail.com
               </p>
             </div>
           </div>
@@ -159,91 +169,31 @@
         <div class="col-md-3">
           <div class="info_info">
             <h5>
-              Invest Money
+              Մեր մասին
             </h5>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour,
+           Կայք ստեղծվել է ծրագրավորման մասին տեղեկություներ ու նյութեր տրամադրելու համար
             </p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="info_links">
-            <h5>
-              Useful Links
-            </h5>
-            <ul>
-              <li>
-                <a href="">
-                  There are many
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  variations of
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  passages of
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  Lorem Ipsum
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  available, but the
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  majority have
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  suffered
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info_form ">
-            <h5>
-              Newsletter
-            </h5>
-            <form action="">
-              <input type="email" placeholder="Enter your email" />
-              <button>
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> 
+
+  <!-- info section -->
+
 
   <!-- end info_section -->
 
   <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
+
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
+    <script type="text/javascript" src="js/index.js"></script>
   <!-- owl carousel script 
     -->
   <script type="text/javascript">
