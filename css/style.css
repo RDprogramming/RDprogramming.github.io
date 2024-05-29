@@ -174,10 +174,10 @@ a:focus {
 .navbar-brand::before {
   content: "";
   position: absolute;
-  left: -10px;
+  left: -7px;
   bottom: 0;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   background-color: #5e1371;
   z-index: 2;
 }
@@ -257,9 +257,7 @@ a:focus {
           box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
-.slider_section .img-box img {
-  width: 100%;
-}
+
 
 .slider_section #carouselExampleIndicators .carousel-indicators {
   bottom: 45px;
@@ -717,10 +715,10 @@ section.app_section .img-box img {
 .info_section .info_contact .info_logo a::before {
   content: "";
   position: absolute;
-  left: -15px;
-  bottom: 0;
-  width: 60px;
-  height: 55px;
+  left: -10px;
+  bottom: -4px;
+  width: 55px;
+  height: 50px;
   background-color: #5e1371;
   z-index: 2;
 }

@@ -147,13 +147,36 @@ sup {
 sub {
   bottom: -.25em;
 }
-
+#html1{
+  margin: 0% 0% 0% -4%;
+}
+#php1{
+  margin: 0% 0% 0% 5%;
+}
+#python1{
+  margin: 0% 0% 0% -10%;
+}
+#java1{
+  margin: 0% 0% 0% -40%;
+}
+#css1{
+  margin: 0% 0% 0% 3%;
+}
+#js1{
+  margin: 0% 0% 0% 7%;
+}
+#c11{
+  margin: 0% 0% 0% 5%;
+}
+#c22{
+  margin: 0% 0% 0% 5%;
+}
 sup {
   top: -.5em;
 }
 
 a {
-  color: #007bff;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
